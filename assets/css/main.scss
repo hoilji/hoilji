@@ -1,71 +1,47 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
-
-// Dimensions
-$max-content-width: {{ site.max_width }};
-
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
-;
-
 .author-self {
   text-decoration: underline;
-  font-style: normal;   /* italic 제거 */
+  font-style: normal;
 }
 
-/* Publications row layout: fixed left column, flexible right column */
+/* Publications row layout: fixed left column + flexible right column */
 .pub-row{
   display: flex;
+  flex-wrap: nowrap !important;   /* 핵심: 줄바꿈 절대 금지 */
   gap: 16px;
   align-items: flex-start;
 }
 
+/* left column width (2x 느낌으로 조절) */
 .pub-left{
-  flex: 0 0 180px;   /* ← 여기 숫자를 2배로 생각하고 조절 (예: 160→320) */
-  max-width: 180px;
+  flex: 0 0 220px;                /* 여기만 원하는 폭으로 조절 */
+  max-width: 220px;
 }
 
+/* right column */
 .pub-right{
   flex: 1 1 auto;
-  min-width: 0;
+  min-width: 0;                   /* 핵심: 긴 텍스트 때문에 깨짐 방지 */
 }
 
-/* Make preview image fill the left column width, height free */
+/* preview image: fixed width to container, free height */
+.pub-left img.preview,
 img.preview{
   width: 100%;
   height: auto;
   display: block;
 }
 
-.pub-row{
-  display:flex;
-  flex-wrap: nowrap;     /* ← 절대 줄바꿈 금지 */
-  gap: 16px;
-  align-items:flex-start;
-}
-
-.pub-left{
-  flex: 0 0 220px;       /* ← 너무 크게 잡았으면 줄바꿈 유발 */
-  max-width: 220px;
-}
-
-.pub-right{
-  flex: 1 1 auto;
-  min-width: 0;          /* ← 이게 없으면 긴 제목 때문에 줄바꿈/깨짐 */
-}
-
+/* mobile: stack */
 @media (max-width: 576px){
   .pub-row{
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
   .pub-left{
     flex: 0 0 100%;
     max-width: 100%;
   }
+}
+
+.pub-left.abbr{
+  padding-top: 4px;
 }
