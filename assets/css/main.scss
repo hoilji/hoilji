@@ -13,3 +13,8 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.author-self {
+  text-decoration: underline;
+  font-style: normal;   /* italic 제거 */
+}
