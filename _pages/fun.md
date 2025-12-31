@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fun
+title: fun
 permalink: /fun/
 nav_order: 4
 nav: true
