@@ -1,0 +1,53 @@
+{%- assign people = site.data.team | where: "group", include.group -%}
+
+<div class="team-grid">
+  {%- for person in people -%}
+    {%- assign pid = person.name | slugify -%}
+    <div class="team-card">
+      <div class="team-photo">
+        {%- if person.photo and person.photo != "" -%}
+          <img src="{{ '/assets/img/team/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
+        {%- else -%}
+          <div class="team-photo-placeholder"></div>
+        {%- endif -%}
+      </div>
+
+      <div class="team-meta">
+        <div class="team-name">{{ person.name }}</div>
+        <div class="team-role">{{ person.role }}</div>
+
+        {%- if person.affiliation and person.affiliation != "" -%}
+          <div class="team-affil">{{ person.affiliation }}</div>
+        {%- endif -%}
+
+        {%- if person.email and person.email != "" -%}
+          <div class="team-email">
+            <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+          </div>
+        {%- endif -%}
+
+        {%- if person.interests and person.interests.size > 0 -%}
+          <div class="team-tags">
+            {%- for t in person.interests -%}
+              <span class="team-tag">{{ t }}</span>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+        {%- if person.bio and person.bio != "" -%}
+          <button class="btn btn-sm z-depth-0 team-bio-btn" type="button"
+                  data-toggle="collapse" data-target="#bio-{{ pid }}"
+                  aria-expanded="false" aria-controls="bio-{{ pid }}">
+            Bio
+          </button>
+
+          <div class="collapse team-bio" id="bio-{{ pid }}">
+            <div class="team-bio-inner">
+              {{ person.bio }}
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endfor -%}
+</div>
