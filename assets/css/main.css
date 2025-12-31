@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*******************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
@@ -915,6 +916,10 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   d-article d-contents nav {
     grid-column: none;
   }
+}
+.author-self {
+  text-decoration: underline;
+  font-style: normal; /* italic 제거 */
 }
 
 /*# sourceMappingURL=main.css.map */
