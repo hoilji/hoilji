@@ -146,3 +146,12 @@ $max-content-width: {{ site.max_width }};
     max-width: 240px; /* 원하면 조절 */
   }
 }
+
+/* About page only: section spacing (after profile block) */
+.profile + .clearfix + h2 {
+  margin-top: 2.5rem;
+}
+
+.profile + .clearfix + h2 + h2 {
+  margin-top: 2.5rem;
+}
