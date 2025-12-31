@@ -1,0 +1,47 @@
+.author-self {
+  text-decoration: underline;
+  font-style: normal;
+}
+
+/* Publications row layout: fixed left column + flexible right column */
+.pub-row{
+  display: flex;
+  flex-wrap: nowrap !important;   /* 핵심: 줄바꿈 절대 금지 */
+  gap: 16px;
+  align-items: flex-start;
+}
+
+/* left column width (2x 느낌으로 조절) */
+.pub-left{
+  flex: 0 0 220px;                /* 여기만 원하는 폭으로 조절 */
+  max-width: 220px;
+}
+
+/* right column */
+.pub-right{
+  flex: 1 1 auto;
+  min-width: 0;                   /* 핵심: 긴 텍스트 때문에 깨짐 방지 */
+}
+
+/* preview image: fixed width to container, free height */
+.pub-left img.preview,
+img.preview{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* mobile: stack */
+@media (max-width: 576px){
+  .pub-row{
+    flex-wrap: wrap !important;
+  }
+  .pub-left{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.pub-left.abbr{
+  padding-top: 4px;
+}
