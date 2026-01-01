@@ -29,5 +29,5 @@ social: false  # includes social icons at the bottom of the page
 </p>
 
 <p align="center">
-  <img src="/assets/img/PCFC_EC_NH3.png" width="300">
+  <img src="/assets/img/PCFC_EC_NH3.png" width="400">
 </p>
