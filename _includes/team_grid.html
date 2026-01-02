@@ -20,6 +20,12 @@
           <div class="team-affil">{{ person.affiliation }}</div>
         {%- endif -%}
 
+        {% if person.scholar_url %}
+          <div class="team-links">
+            <a href="{{ person.scholar_url }}" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
+        {% endif %}
+        
         {%- if person.email and person.email != "" -%}
           <div class="team-email">
             <a href="mailto:{{ person.email }}">{{ person.email }}</a>
