@@ -3,9 +3,9 @@
   role: "PI / Principal Researcher"
   group: "Faculty"
   photo: "hiji.jpg"          # assets/img/team/hiji.jpg
-  email: "hoilji@kist.re.kr"
+  email: "hiji@kist.re.kr"
   interests: ["PCFC/PCEC", "Solid State Ionics", "Ceramic Process"]
-  affiliation: |
+  affiliation: 
   "Korea Institute of Science and Technology (KIST)"
   "University of Science and Technology (UST)"
   bio: "
