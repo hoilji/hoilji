@@ -94,7 +94,7 @@
   role: "PhD Student"  # PostDoc, MS/PhD Student, PhD Student, MS Student
   photo: "aaa.jpg"     # assets/img/team/xxx.xxx
   email: ""
-  affiliation: "KIST"    # KIST / Korea Univ.
+  affiliation: "current: Hyundai Motors"  # current employment
   interests: ["Proton conductors", "Microkinetics"]   # short words
   scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
   bio: " 
