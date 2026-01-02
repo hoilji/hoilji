@@ -26,11 +26,11 @@
           </div>
         {%- endif -%}
         
-        {% if person.scholar_url and person.scholar != "" -%}
+        {%- if person.scholar_url and person.scholar_url != "" -%}
           <div class="team-links">
             <a href="{{ person.scholar_url }}">Google Scholar</a>
           </div>
-        {% endif %}
+        {%- endif -%}
        
         {%- if person.interests and person.interests.size > 0 -%}
           <div class="team-tags">
