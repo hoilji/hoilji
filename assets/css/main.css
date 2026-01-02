@@ -1006,14 +1006,10 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 }
 
 .team-affil,
-.team-link,
+.team-links,
 .team-email {
   font-size: 0.9rem;
   margin-top: 6px;
-}
-
-.team-link {
-  display: block;
 }
 
 .team-tags {
