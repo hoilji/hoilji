@@ -37,10 +37,10 @@
   name: "Julian Eigen"    # Ho-Il Ji (지호일)
   role: "PostDoc"  # PostDoc, MS/PhD Student, PhD Student, MS Student
   photo: "aaa.jpg"     # assets/img/team/xxx.xxx
-  email: ""
+  email: "j.eigen@kist.re.kr"
   affiliation: "KIST"    # KIST / Korea Univ.
   interests: ["Solid State Ionics", "Triple-Conducting Oxides"]   # short words
-  scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en,  if not, delete this line
+  scholar_url: "https://scholar.google.co.kr/citations?user=rf3ewREAAAAJ&hl=ko&oi=ao" 
   bio: " 
     <strong>Education</strong>
     <ul>
