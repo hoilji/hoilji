@@ -1,47 +1,47 @@
 # _data/team.yml
+
 - name: "Ho-Il Ji (지호일)"
   role: "PI / Principal Researcher"
   group: "Faculty"
-  photo: "hiji.jpg"          # assets/img/team/hiji.jpg
+  photo: "hiji.jpg" # assets/img/team/hiji.jpg
   email: "hiji@kist.re.kr"
   interests: ["PCFC/PCEC", "Solid State Ionics", "Ceramic Process"]
-  affiliation: "
-  Korea Institute of Science and Technology (KIST)<br>
-  University of Science and Technology (UST)"
+  affiliation: |
+    Korea Institute of Science and Technology (KIST)<br>
+    University of Science and Technology (UST)
   scholar_url: "https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en"
-  bio: "
+  bio: |
     <strong>Education</strong>
-  <ul>
-    <li>PhD in Materials Science, Caltech (2012-2017)<br>
-        <small><em>with Prof. S.M. Haile</em></small></li>
-    <li>MS in Materials Science & Engineering, Seoul Nat'l Univ. (2007-2009)<br>
-        <small><em>with Prof. H.I. Yoo</em></small></li>
-    <li>BS in Materials Science & Engineering, Seoul Nat'l Univ. (2003-2007)<br></li>
-  </ul>
+    <ul>
+      <li>PhD in Materials Science, Caltech (2012-2017)<br>
+          <small><em>with Prof. S.M. Haile</em></small></li>
+      <li>MS in Materials Science & Engineering, Seoul Nat'l Univ. (2007-2009)<br>
+          <small><em>with Prof. H.I. Yoo</em></small></li>
+      <li>BS in Materials Science & Engineering, Seoul Nat'l Univ. (2003-2007)<br></li>
+    </ul>
     <strong>Employment</strong>
-  <ul>
-    <li>Principal Researcher, KIST (2022-Present)</li>
-    <li>Senior Researcher, KIST (2018-2021)</li>
-    <li>Researcher, KIST (2009-2017)</li>
-    <li>Associate Prof., UST (2018-Present)</li>
-    <li>Predoc. Scholar, Northwestern Univ. (2015-2017)</li>
-  </ul>
-      <strong>Contact Information</strong>
-  <ul>
-    <li>Office: L3426, KIST</li>
-    <li>Phone: 82-2-958-5521</li>
-  </ul>
-  "
+    <ul>
+      <li>Principal Researcher, KIST (2022-Present)</li>
+      <li>Senior Researcher, KIST (2018-2021)</li>
+      <li>Researcher, KIST (2009-2017)</li>
+      <li>Associate Prof., UST (2018-Present)</li>
+      <li>Predoc. Scholar, Northwestern Univ. (2015-2017)</li>
+    </ul>
+    <strong>Contact Information</strong>
+    <ul>
+      <li>Office: L3426, KIST</li>
+      <li>Phone: 82-2-958-5521</li>
+    </ul>
 
-- group: "Researchers"    # Researchers, Students, Alumni
-  name: "Julian Eigen"    # Ho-Il Ji (지호일)
-  role: "PostDoc"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "julian.jpg"     # assets/img/team/xxx.xxx
+- group: "Researchers"
+  name: "Julian Eigen"
+  role: "PostDoc"
+  photo: "julian.jpg"
   email: "j.eigen@kist.re.kr"
-  affiliation: "Korea Institute of Science and Technology (KIST)"    # KIST / Korea Univ.
-  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]   # short words
-  scholar_url: "https://scholar.google.co.kr/citations?user=rf3ewREAAAAJ&hl=ko&oi=ao" 
-  bio: " 
+  affiliation: "Korea Institute of Science and Technology (KIST)"
+  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]
+  scholar_url: "https://scholar.google.co.kr/citations?user=rf3ewREAAAAJ&hl=ko&oi=ao"
+  bio: |
     <strong>Education</strong>
     <ul>
       <li>PhD in Materials Science, Caltech (2012-2017)<br>
@@ -54,17 +54,16 @@
     <ul>
       <li>PostDoc Researcher, KIST (2024-Present)</li>
     </ul>
-  "
 
-  - group: "Researchers"    # Researchers, Students, Alumni
-  name: "SeulChan Kim"    # Ho-Il Ji (지호일)
-  role: "MS Intern"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "seulchan.jpg"     # assets/img/team/xxx.xxx
+- group: "Researchers"
+  name: "SeulChan Kim"
+  role: "MS Intern"
+  photo: "seulchan.jpg"
   email: "ksch2@kist.re.kr"
-  affiliation: "Korea Institute of Science and Technology (KIST)"    # KIST / Korea Univ.
-  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]   # short words
-  scholar_url: "" 
-  bio: " 
+  affiliation: "Korea Institute of Science and Technology (KIST)"
+  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]
+  scholar_url: ""
+  bio: |
     <strong>Education</strong>
     <ul>
       <li>PhD in Materials Science, Caltech (2012-2017)<br>
@@ -73,17 +72,16 @@
         <small><em>with Prof. H.I. Yoo</em></small></li>
       <li>BS in Materials Science & Engineering, Seoul Nat'l Univ. (2003-2007)<br></li>
     </ul>
-  "
 
-  - group: "Researchers"    # Researchers, Students, Alumni
-  name: "MinCheol Kim"    # Ho-Il Ji (지호일)
-  role: "MS Intern"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "mincheol.jpg"     # assets/img/team/xxx.xxx
+- group: "Researchers"
+  name: "MinCheol Kim"
+  role: "MS Intern"
+  photo: "mincheol.jpg"
   email: "kmc5387@kist.re.kr"
-  affiliation: "Korea Institute of Science and Technology (KIST)"    # KIST / Korea Univ.
-  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]   # short words
-  scholar_url: "" 
-  bio: " 
+  affiliation: "Korea Institute of Science and Technology (KIST)"
+  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]
+  scholar_url: ""
+  bio: |
     <strong>Education</strong>
     <ul>
       <li>PhD in Materials Science, Caltech (2012-2017)<br>
@@ -92,18 +90,16 @@
         <small><em>with Prof. H.I. Yoo</em></small></li>
       <li>BS in Materials Science & Engineering, Seoul Nat'l Univ. (2003-2007)<br></li>
     </ul>
-  "
-  
-  
-- group: "Students"    # Researchers, Students, Alumni
-  name: "HyeonWoo Kim"    # Ho-Il Ji (지호일)
-  role: "PhD Student"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "hyeonwoo.jpg"     # assets/img/team/xxx.xxx
+
+- group: "Students"
+  name: "HyeonWoo Kim"
+  role: "PhD Student"
+  photo: "hyeonwoo.jpg"
   email: "hyeonwoo@kist.re.kr"
-  affiliation: "Korea Institute of Science and Technology (KIST)<br>Korea University (Korea Univ)"    # KIST / Korea Univ.
-  interests: ["Proton conductors", "Large area PCFC/PCEC fabrication Process"]   # short words
-  scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
-  bio: "
+  affiliation: "Korea Institute of Science and Technology (KIST)<br>Korea University (Korea Univ)"
+  interests: ["Proton conductors", "Large area PCFC/PCEC fabrication Process"]
+  scholar_url: ""
+  bio: |
     <strong>Education</strong>
     <ul>
       <li>PhD in Materials Science & Engineering, Korea Univ (2025-Present)<br>
@@ -116,19 +112,18 @@
     <ul>
       <li>student intern, KIST (2021.09-2022.09)</li>
     </ul>
-  "
 
-  - group: "Students"    # Researchers, Students, Alumni
-  name: "DoGeun Yoon"    # Ho-Il Ji (지호일)
-  role: "MS Student"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "dogeun.jpg"     # assets/img/team/xxx.xxx
+- group: "Students"
+  name: "DoGeun Yoon"
+  role: "MS Student"
+  photo: "dogeun.jpg"
   email: "124515@kist.re.kr"
-  affiliation: ""
-  Korea Institute of Science and Technology (KIST)<br>
-  Yeonsei University (Yeonsei Univ)"    # KIST / Korea Univ.
-  interests: ["Proton conductors", "Large area PCFC/PCEC fabrication Process"]   # short words
-  scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
-  bio: "
+  affiliation: |
+    Korea Institute of Science and Technology (KIST)<br>
+    Yeonsei University (Yeonsei Univ)
+  interests: ["Proton conductors", "Large area PCFC/PCEC fabrication Process"]
+  scholar_url: ""
+  bio: |
     <strong>Education</strong>
     <ul>
       <li>MS in Department of Mechanical Engineering, Yeonsei Univ (2024.09-Present)<br>
@@ -139,51 +134,46 @@
     <ul>
       <li>student intern, KIST (2023.09-2024.08)</li>
     </ul>
-  "
 
-  - group: "Students"    # Researchers, Students, Alumni
-  name: "MinJi Kang"    # Ho-Il Ji (지호일)
-  role: "MS Student"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "minji.jpg"     # assets/img/team/xxx.xxx
+- group: "Students"
+  name: "MinJi Kang"
+  role: "MS Student"
+  photo: "minji.jpg"
   email: "125001@kist.re.kr"
-  affiliation: "Korea Institute of Science and Technology (KIST)<br> Korea University (Korea Univ)"    # KIST / Korea Univ.
-  interests: ["Proton conductors", "Ru exsolution"]   # short words
-  scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
-  bio: "
+  affiliation: "Korea Institute of Science and Technology (KIST)<br> Korea University (Korea Univ)"
+  interests: ["Proton conductors", "Ru exsolution"]
+  scholar_url: ""
+  bio: |
     <strong>Education</strong>
     <ul>
       <li>MS in Materials Science & Engineering, Korea Univ (2025-present)<br>
         <small><em>with Dr. Ho-il Ji </em></small></li>
       <li>BS in Materials Science & Engineering, Seoul National University of Science and Technology (2015-2022)<br></li>
     </ul>
-    "
-  
-- group: "Alumni"    # Researchers, Students, Alumni
-  name: "Junseok Kim"    # Ho-Il Ji (지호일)
-  role: "PhD Student (2018 - 2023)"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "junsuek.jpg"     # assets/img/team/xxx.xxx
-  email: ""
-  affiliation: "current: Assistant Professor in Keimyung University"  # current employment
-  interests: ["Proton conductors", "Microkinetics"]   # short words
-  scholar_url: "https://scholar.google.co.kr/citations?hl=ko&user=o4rA1L8AAAAJ"  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
 
-  group: "Alumni"    # Researchers, Students, Alumni
-  name: "Joonhwan Kim"    # Ho-Il Ji (지호일)
-  role: "MS Student (2019 - 2020)"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "junhwan.jpg"     # assets/img/team/xxx.xxx
+- group: "Alumni"
+  name: "Junseok Kim"
+  role: "PhD Student (2018 - 2023)"
+  photo: "junsuek.jpg"
   email: ""
-  affiliation: "current: Hyundai Motor Company"  # current employment
-  interests: ["Protonic Ceramic Fuel Cell", "Intense Pulsed Light"]   # short words
-  scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
+  affiliation: "current: Assistant Professor in Keimyung University"
+  interests: ["Proton conductors", "Microkinetics"]
+  scholar_url: "https://scholar.google.co.kr/citations?hl=ko&user=o4rA1L8AAAAJ"
 
-  group: "Alumni"    # Researchers, Students, Alumni
-  name: "Seunghyeok Im"    # Ho-Il Ji (지호일)
-  role: "MS Student (2019 - 2020)"  # PostDoc, MS/PhD Student, PhD Student, MS Student
-  photo: "seonghuk.jpg"     # assets/img/team/xxx.xxx
+- group: "Alumni"
+  name: "Joonhwan Kim"
+  role: "MS Student (2019 - 2020)"
+  photo: "junhwan.jpg"
   email: ""
-  affiliation: "current: DongWoo fine-chem Co.,LTD"  # current employment
-  interests: ["triple ionic-electronic conducting oxides", "protonic ceramic cells"]   # short words
-  scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
-  
-  
-  
+  affiliation: "current: Hyundai Motor Company"
+  interests: ["Protonic Ceramic Fuel Cell", "Intense Pulsed Light"]
+  scholar_url: ""
+
+- group: "Alumni"
+  name: "Seunghyeok Im"
+  role: "MS Student (2019 - 2020)"
+  photo: "seonghuk.jpg"
+  email: ""
+  affiliation: "current: DongWoo fine-chem Co.,LTD"
+  interests: ["triple ionic-electronic conducting oxides", "protonic ceramic cells"]
+  scholar_url: ""
