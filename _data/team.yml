@@ -67,9 +67,9 @@
     <strong>Education</strong>
     <ul>
       <li>MS Intern in KIST (2024-present)<br>
-        <small><em>with Dr. Ho-il Ji </em></small></li>
+        <small><em>with Dr. Ho-Il Ji </em></small></li>
       <li>MS in Materials Science & Engineering, Korea Univ (2022-2024)<br>
-        <small><em>with Dr. Ho-il Ji & Dr. Ji-Won Son</em></small></li>
+        <small><em>with Dr. Ho-Il Ji & Dr. Ji-Won Son</em></small></li>
       <li>BS in Department of Chemistry, Konkuk University (2015-2021)<br></li>
     </ul>
 
@@ -86,9 +86,9 @@
     <strong>Education</strong>
     <ul>
       <li>PhD in Materials Science & Engineering, Korea Univ (2025-Present)<br>
-        <small><em>with Dr. Ho-il Ji</em></small></li>
+        <small><em>with Dr. Ho-Il Ji</em></small></li>
       <li>MS in Materials Science & Engineering, Korea Univ (2023-2024)<br>
-        <small><em>with Dr. Ho-il Ji & Dr. Ji-Won Son</em></small></li>
+        <small><em>with Dr. Ho-Il Ji & Dr. Ji-Won Son</em></small></li>
       <li>BS in Materials Science & Engineering, Seoul National University of Science and Technology (2015-2022)<br></li>
     </ul>
     <strong>Employment</strong>
@@ -110,7 +110,7 @@
     <strong>Education</strong>
     <ul>
       <li>MS in Department of Mechanical Engineering, Yeonsei Univ (2024.09-Present)<br>
-        <small><em>with Dr. Ho-il Ji</em></small></li>
+        <small><em>with Dr. Ho-Il Ji</em></small></li>
       <li>BS in Department of Mechanical Engineering, Seoul National University of Science and Technology (2016-2024)<br></li>
     </ul>
     <strong>Employment</strong>
@@ -130,7 +130,7 @@
     <strong>Education</strong>
     <ul>
       <li>MS in Materials Science & Engineering, Korea Univ (2024-Present)<br>
-        <small><em>with Dr. Ho-il Ji & Dr. Ji-Won Son</em></small></li>
+        <small><em>with Dr. Ho-Il Ji & Dr. Ji-Won Son</em></small></li>
       <li>BS in Department of Chemistry, Hannam University (2018-2024)<br></li>
     </ul>
 
@@ -140,23 +140,32 @@
   photo: "minji.jpg"
   email: "125001@kist.re.kr"
   affiliation: "Korea Institute of Science and Technology (KIST)<br> Korea University (Korea Univ)"
-  interests: ["Proton conductors", "Ru exsolution"]
+  interests: ["Proton conductors", "Exsolution"]
   scholar_url: ""
   bio: |
     <strong>Education</strong>
     <ul>
       <li>MS in Materials Science & Engineering, Korea Univ (2025-present)<br>
-        <small><em>with Dr. Ho-il Ji </em></small></li>
+        <small><em>with Dr. Ho-Il Ji </em></small></li>
       <li>BS in Materials Science & Engineering, Seoul National University of Science and Technology (2015-2022)<br></li>
     </ul>
   
 - group: "Alumni"
   name: "Junseok Kim"
-  role: "PhD Student (2018 - 2023)"
+  role: "MS / PhD Student (2018 - 2023)"
   photo: "junsuek.jpg"
   email: ""
   affiliation: "current: Assistant Professor in Keimyung University"
-  interests: ["Proton conductors", "Microkinetics"]
+  interests: ["Ceramic Process", "SOFC/PCFC electrolyte"]
+  scholar_url: "https://scholar.google.co.kr/citations?hl=ko&user=o4rA1L8AAAAJ"
+
+- group: "Alumni"
+  name: "Wan-Jae Lee"
+  role: "MS Student (2020 - 2022)"
+  photo: "wanjae.jpg"
+  email: ""
+  affiliation: ""
+  interests: ["PCFC buffer layer", "Cr poisoning"]
   scholar_url: "https://scholar.google.co.kr/citations?hl=ko&user=o4rA1L8AAAAJ"
 
 - group: "Alumni"
@@ -165,7 +174,7 @@
   photo: "junhwan.jpg"
   email: ""
   affiliation: "current: Hyundai Motor Company"
-  interests: ["Protonic Ceramic Fuel Cell", "Intense Pulsed Light"]
+  interests: ["Exsolution", "mass relaxation"]
   scholar_url: ""
 
 - group: "Alumni"
@@ -176,3 +185,12 @@
   affiliation: "current: DongWoo fine-chem Co.,LTD"
   interests: ["triple ionic-electronic conducting oxides", "protonic ceramic cells"]
   scholar_url: ""
+
+- group: "Alumni"
+  name: "Asif Jan"
+  role: "MS Student (2018 - 2019)"
+  photo: "asif.jpg"
+  email: "A.Jan@tudelft.nl"
+  affiliation: "current: PhD in Delft University of Technology, Netherlands"
+  interests: ["Pt/ceria catalyst"]
+  scholar_url: "https://scholar.google.com/citations?user=95xz06cAAAAJ&hl=en"
