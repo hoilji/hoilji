@@ -91,7 +91,7 @@ $max-content-width: {{ site.max_width }};
 
 .team-name{
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   margin: 0 0 2px 0;
 }
 
@@ -102,6 +102,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 .team-affil,
+.team-link,
 .team-email{
   font-size: 0.9rem;
   margin-top: 6px;
