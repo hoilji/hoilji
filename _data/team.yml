@@ -62,10 +62,10 @@
   
   
 - group: "Students"    # Researchers, Students, Alumni
-  name: "aa Aa"    # Ho-Il Ji (지호일)
+  name: "HyeonWoo Kim"    # Ho-Il Ji (지호일)
   role: "PhD Student"  # PostDoc, MS/PhD Student, PhD Student, MS Student
   photo: "aaa.jpg"     # assets/img/team/xxx.xxx
-  email: ""
+  email: "hyeonwoo@kist.re.kr"
   affiliation: "KIST"    # KIST / Korea Univ.
   interests: ["Proton conductors", "Microkinetics"]   # short words
   scholar_url: ""  # if available, e.g., https://scholar.google.co.kr/citations?user=VNAIDFkAAAAJ&hl=en
