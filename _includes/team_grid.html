@@ -20,9 +20,9 @@
           <div class="team-affil">{{ person.affiliation }}</div>
         {%- endif -%}
 
-        {% if person.scholar_url %}
+        {% if person.scholar_url and person.scholar != "" -%}
           <div class="team-links">
-            <a href="{{ person.scholar_url }}" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="{{ person.scholar_url }}">Google Scholar</a>
           </div>
         {% endif %}
         
