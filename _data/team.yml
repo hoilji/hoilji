@@ -73,23 +73,6 @@
       <li>BS in Materials Science & Engineering, Seoul Nat'l Univ. (2003-2007)<br></li>
     </ul>
 
-- group: "Researchers"
-  name: "MinCheol Kim"
-  role: "MS Intern"
-  photo: "mincheol.jpg"
-  email: "kmc5387@kist.re.kr"
-  affiliation: "Korea Institute of Science and Technology (KIST)"
-  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]
-  scholar_url: ""
-  bio: |
-    <strong>Education</strong>
-    <ul>
-      <li>PhD in Materials Science, Caltech (2012-2017)<br>
-        <small><em>with Prof. S.M. Haile</em></small></li>
-      <li>MS in Materials Science & Engineering, Seoul Nat'l Univ. (2007-2009)<br>
-        <small><em>with Prof. H.I. Yoo</em></small></li>
-      <li>BS in Materials Science & Engineering, Seoul Nat'l Univ. (2003-2007)<br></li>
-    </ul>
 
 - group: "Students"
   name: "HyeonWoo Kim"
@@ -133,6 +116,22 @@
     <strong>Employment</strong>
     <ul>
       <li>student intern, KIST (2023.09-2024.08)</li>
+    </ul>
+
+- group: "Students"
+  name: "MinCheol Kim"
+  role: "MS student"
+  photo: "mincheol.jpg"
+  email: "kmc5387@kist.re.kr"
+  affiliation: "Korea Institute of Science and Technology (KIST)"
+  interests: ["Solid State Ionics", "Triple-Conducting Oxides"]
+  scholar_url: ""
+  bio: |
+    <strong>Education</strong>
+    <ul>
+      <li>MS in Materials Science & Engineering, Korea Univ (2024-Present)<br>
+        <small><em>with Dr. Ho-il Ji & Dr. Ji-Won Son</em></small></li>
+      <li>BS in Department of Chemistry, Hannam University (2018-2024)<br></li>
     </ul>
 
 - group: "Students"
