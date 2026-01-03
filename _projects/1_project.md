@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: overview
+description: Generalized issues on ceramic electrochemical cells
+img: assets/img/project_overview.jpg
 importance: 1
 category: work
 ---
