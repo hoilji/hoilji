@@ -14,17 +14,17 @@ category: project
   <div class="col-md-3 text-center">
     {% include figure.html 
       path="assets/img/logo/NRF.png" 
-      class="img-fluid rounded z-depth-1"
+      class="img-fluid rounded"
     %}
   </div>
 
   <!-- Right: Text (3/4) -->
   <div class="col-md-9">
-    <h4>Section title</h4>
+    <h4>인공지능 활용 PCFC 소재/구조 개발 과제</h4>
     <p>
 사업명: 무탄소에너지핵심기술개발>무탄소에너지핵심기술개발<br>
 과제명: 인공지능을 활용한 초고전도/초전하 신규소재 기반 PCFC 핵심 요소기술 개발<br>
-역할: 총괄 (연구책임:지호일)
+역할: 총괄 (연구책임:지호일)<br>
 기간: 2025. 04. 01 ~ 2029. 12. 31 
     </p>
   </div>
