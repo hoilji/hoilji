@@ -4,7 +4,7 @@ title: overview
 description: General issues on ceramic electrochemical cells
 img: assets/img/project_overview.png
 importance: 1
-category: work
+category: research topic
 ---
 
 <div class="row">
