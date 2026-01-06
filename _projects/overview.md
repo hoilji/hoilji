@@ -1,6 +1,6 @@
 ---
 layout: page
-title: overview
+title: research area
 description: Solid oxide electrochemical cells
 img: assets/img/project_overview.png
 importance: 1
