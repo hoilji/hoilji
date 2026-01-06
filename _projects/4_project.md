@@ -96,6 +96,8 @@ category: project
 
 
 <div class="col-md-9">
+   <br>
+   <br>
 <h4><strong> Completed Projects </strong></h4>
 </div>
 
