@@ -1,7 +1,7 @@
 ---
 layout: page
 title: overview
-description: General issues on ceramic electrochemical cells
+description: Solid oxide electrochemical cells
 img: assets/img/project_overview.png
 importance: 1
 category: research topic
@@ -11,77 +11,39 @@ category: research topic
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/overview_1.png" title="SOC_schematic" class="img-fluid rounded z-depth-1" %}
     </div>
+     <br>
 </div>
 
+<div>
+<h4>Solid Oxide Fuel Cell (SOFC)</h4>
+    <p>
+SOFC is a high-temperature fuel cell that uses ceramic components as the electrolyte and electrodes.
+Operating above 700 °C, it offers high electrical efficiency, fuel flexibility, and excellent suitability for combined heat and power systems.
+SOFC technology is already being commercialized with a rapidly growing market, while scale-up, cost reduction, and long-term reliability remain key research challenges.
+    </p>
+    <br>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    <h4>Solid Oxide Electrolysis Cell (SOEC)</h4>
+    <p>
+SOEC is a high-temperature electrolysis technology that efficiently converts steam and/or CO₂ into hydrogen or syngas.
+Thanks to its high operating temperature, SOEC achieves the highest electrical efficiency among water electrolysis technologies and is well suited for integration with renewable energy and waste heat.
+Current research focuses on durability, thermal management, and system integration for large-scale hydrogen production.
+</p>
+ <br>
+ 
+<h4>Proton-Conducting Fuel Cell (PCFC)</h4>
+<p>
+PCFC employs proton-conducting ceramic electrolytes and operates at intermediate temperatures below 600 °C.
+It combines the advantages of high efficiency, reduced degradation, and the ability to use dry fuels without external humidification.
+PCFC is an emerging technology with strong potential, while material stability, electrode kinetics, and long-term performance are active research topics.
+</p>
+ <br>
+ 
+<h4>Proton-Conducting Electrolysis Cell (PCEC)</h4>
+<p>
+PCEC is the electrolysis counterpart of PCFC, producing hydrogen through proton transport at intermediate temperatures.
+It enables highly efficient hydrogen production with lower thermal requirements compared to SOEC and can directly generate dry hydrogen.
+Key challenges include large-area cell fabrication, stack development, and long-term durability under realistic operating conditions.
+</p>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
