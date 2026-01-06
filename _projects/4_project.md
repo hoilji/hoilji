@@ -4,7 +4,7 @@ title: Projects
 description: Ongoing and completed research projects
 img: assets/img/3.jpg
 importance: 3
-category: project
+category: research topic
 ---
 <div class="col-md-9">
 <h4><strong> Ongoing Projects </strong></h4>
