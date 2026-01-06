@@ -9,9 +9,11 @@ profile:
   image: together.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Korea Institute of Science and Technology (KIST)</p>
-    <p>Energy Materials Research Center</p>
-    <p>(5, Hwarang-ro 14-gil Seongbuk-gu Seoul, 02792 Republic of Korea)</p>
+    <p><a href="https://kist.re.kr/">Korea Institute of Science and Technology (KIST)</a><br>
+    Energy Materials Research Center<br>
+    <a href="http://ssems.dsso.kr/">Solid State Energy Materials & Systems (SSEMS)</a><br>
+     <br>
+    (5, Hwarang-ro 14-gil Seongbuk-gu Seoul, 02792 Republic of Korea)</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
