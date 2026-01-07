@@ -265,5 +265,115 @@ Last updated: January 07, 2026.
   }
 </script>
 
+
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+
+    <script>
+      function setLogoByTheme() {
+        const isDark =
+          document.documentElement.classList.contains('dark') ||
+          document.documentElement.classList.contains('theme-dark') ||
+          document.body.classList.contains('dark') ||
+          document.body.classList.contains('theme-dark');
+
+        document.querySelectorAll('img.site-logo').forEach(img => {
+          const light = img.getAttribute('data-logo-light');
+          const dark  = img.getAttribute('data-logo-dark');
+          img.src = isDark ? dark : light;
+        });
+      }
+
+      // 최초 1회
+      document.addEventListener('DOMContentLoaded', setLogoByTheme);
+
+      // 토글 버튼 클릭 시 (테마 class 토글 이후 반영되도록)
+      const toggleBtn = document.getElementById('light-toggle');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => setTimeout(setLogoByTheme, 0));
+      }
+
+      // class 변경 감지 (테마 스크립트가 다른 방식으로 바꿔도 대응)
+      const obs = new MutationObserver(setLogoByTheme);
+      obs.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+      obs.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    </script>
   </body>
 </html>
