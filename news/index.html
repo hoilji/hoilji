@@ -163,6 +163,11 @@ Last updated: January 08, 2026.
       </div>
     </footer>
 
+    <!-- Visitor counter (fixed bottom-right) --><div id="visit-counter" class="visit-counter" aria-label="Site visit counter">
+  Visits: <span id="visit-counter-value">—</span>
+</div>
+
+    
     <!-- JavaScripts -->
     <!-- jQuery -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -358,6 +363,8 @@ Last updated: January 08, 2026.
 </script>
 
 
+
+  
 <script>
   function currentThemeIsDark() {
     // 1) al-folio가 저장하는 값(가장 우선)
@@ -408,5 +415,8 @@ Last updated: January 08, 2026.
   window.addEventListener("load", () => setTimeout(setLogoByTheme, 50));
 </script>
 
+          <!-- Visitor counter script -->
+  <script src="/assets/js/visit-counter.js"></script>
+    
   </body>
 </html>
