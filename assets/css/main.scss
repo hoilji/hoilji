@@ -155,3 +155,14 @@ $max-content-width: {{ site.max_width }};
 .profile + .clearfix + h2 + h2 {
   margin-top: 2.5rem;
 }
+
+.footer-counter{
+  font-size: 11px;
+  opacity: 0.65;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+.footer-counter #visit-counter-value{
+  font-variant-numeric: tabular-nums;
+}
